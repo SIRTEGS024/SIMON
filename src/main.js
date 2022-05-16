@@ -12,7 +12,7 @@ $(document).on("keydown", function (e) {
 });
 
 //This converts the clicks into numbers and pushes it to a new array.
-$(".btn").click(function (e) {
+$(".btn").click(function () {
   let userClicked = $(this).attr("id");
   switch (userClicked) {
     case "green":
