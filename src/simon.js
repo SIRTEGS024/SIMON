@@ -4,7 +4,6 @@ export default function Simon() {
   this.sequenceMade = [];
   this.sequenceUser = [];
   this.levelCounter = 0;
-  this.level = 0;
 }
 
 //This generates a random number and pushes it to the sequenceMade.
